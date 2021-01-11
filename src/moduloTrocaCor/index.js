@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { MudaScroll } from '../estiloTrocaCor'
+import { MudaScroll } from './estiloTrocaCor'
 import './trocaCor.css';
 
 class moduloTrocaCor extends Component{
