@@ -28,7 +28,7 @@
                Seu conteudo vai aqui.
           </MudaScroll>
           
-    Este elemento trabalha como uma div e é o componente que ira mudar de cor, neste caso ele esta definido para sua pagina inteira e por hora so muda a cor do fundo de uma pagina toda. 
+   Este elemento trabalha como uma div e é o componente que ira mudar de cor, neste caso ele esta definido para sua pagina inteira e por hora so muda a cor do fundo de uma pagina toda. 
 
 link para o versel:
 https://mudacorrolagem.vercel.app/
