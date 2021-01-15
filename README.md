@@ -11,19 +11,23 @@
 * Você deve então adicionar ao seu componente as seguintes linhas de codigo:
 
 1 - No construtor defina a state (é muito importante que não troque os nomes das variaveis e as funções):
+
         this.state ={
             corFundo: DefinirMudancaDeCor(),
         };
         
 2 - No componentDidMount() escreva o seguinte codigo:
+
           window.onscroll = () => this.setState({
             corFundo: DefinirMudancaDeCor()
           }); 
           
 3 - No html de sua pagina, no caso dentro do render() do seu componente, você deve chamar o seguinte elemento:
+
           <MudaScroll className="fundo" id="fundo" corDeFundo={this.state.corFundo}>
                Seu conteudo vai aqui.
           </MudaScroll>
+          
     Este elemento trabalha como uma div e é o componente que ira mudar de cor, neste caso ele esta definido para sua pagina inteira e por hora so muda a cor do fundo de uma pagina toda. 
 
 link para o versel:
