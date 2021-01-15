@@ -9,6 +9,7 @@
 * O arquivo definirCores é nada mais que um objeto com varias cores definidas, de 1 a 10. a cor um coresponde de 0 a 10% da pagina, a cor 2 corresponde de 10 a 20% da pagina e assim sucetivamente, é nestas variabeis que você deve escolher as cores que deseja ter em sua pagina. Por favor não mudar o nome das variaveis ou das propriedades do objeto, apenas mudar seus valores. 
 
 * Você deve então adicionar ao seu componente as seguintes linhas de codigo:
+
 1 - No construtor defina a state (é muito importante que não troque os nomes das variaveis e as funções):
         this.state ={
             corFundo: DefinirMudancaDeCor(),
